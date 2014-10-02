@@ -1,5 +1,5 @@
 MIN_DIVISORS =500
-sum = 3
+sum = 1
 
 def countDivisors(number):
 	divisorsCount = 0
@@ -10,10 +10,10 @@ def countDivisors(number):
 		return True
 	return False
 
-n = 3
+n = 1
 
 while not countDivisors(sum):
 	n = n + 1
-	sum = sum = n
+	sum = sum + n
 
 print sum
